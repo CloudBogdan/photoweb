@@ -1,0 +1,21 @@
+.text-muted {
+    color: #aaa;
+}
+.citate {
+    font-size: 22px;
+    font-style: italic;
+
+    &::after {
+        content: "\"";
+
+        
+        position: absolute;
+        right: -50px;
+        top: -70px;
+        
+        font-family: serif;
+        font-size: 180px;
+        color: #e7e7e7;
+    }
+    
+}

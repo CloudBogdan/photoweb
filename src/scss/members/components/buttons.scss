@@ -1,0 +1,26 @@
+.button {
+    width: max-content;
+    // height: 50px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: $black;
+    border: none;
+    // border-radius: 5px;
+    color: #fff;
+    @extend %ff;
+
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+        background: darken($black, 2);
+    }
+    &:active {
+        background: lighten($black, 2);
+    }
+
+}
